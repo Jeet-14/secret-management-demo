@@ -143,4 +143,18 @@ create secretstore using given file and make sure it is ready: [Change this cont
 ```bash
 kubectl get secret/devdb-password -n database-ns  -o jsonpath='{.data.password}' | base64 -d
 ```
+secret-management-demo using vault+eso
+
+Demo:
+
+ESO with Vault:
+
+https://github.com/user-attachments/assets/d00b93c3-d3c1-4c7d-bcb8-b696ce08a832
+
+---
+
+
+ESO with AWS secret manager:
+
+https://github.com/user-attachments/assets/cf622efe-9c79-464f-a83e-76adc0f9ec7f
 
